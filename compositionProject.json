@@ -1,0 +1,16 @@
+{
+  "public": {},
+  "src": {
+    "assets": {
+      "scss": [
+        "style.css",
+        "style.scss"
+      ]
+    }
+  },
+  ".editorconfig": "",
+  ".gitignore": "",
+  "package_lock.json": "",
+  "package.json": "",
+  "README.md": ""
+}
