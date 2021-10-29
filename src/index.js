@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< HEAD
 import './assets/scss/style.scss';
+=======
+import './assets/scss/style.css';
+>>>>>>> 113d7d9 (add compositionProject.json)
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -6,6 +6,7 @@
         "style.css",
         "style.scss"
       ]
+<<<<<<< HEAD
     },
     "components": {
       "header": {
@@ -17,6 +18,8 @@
       "navigation": {
         "style.module.scss": "file"
       }
+=======
+>>>>>>> 113d7d9 (add compositionProject.json)
     }
   },
   ".editorconfig": "",
