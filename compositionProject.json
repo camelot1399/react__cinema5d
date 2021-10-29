@@ -7,6 +7,9 @@
         "style.scss"
       ]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b2cc149 (cinema5d-7; add component and scss for header)
     },
     "components": {
       "header": {
@@ -18,8 +21,11 @@
       "navigation": {
         "style.module.scss": "file"
       }
+<<<<<<< HEAD
 =======
 >>>>>>> 113d7d9 (add compositionProject.json)
+=======
+>>>>>>> b2cc149 (cinema5d-7; add component and scss for header)
     }
   },
   ".editorconfig": "",

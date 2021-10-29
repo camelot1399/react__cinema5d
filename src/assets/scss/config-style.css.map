@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "config-style.scss"
+    ],
+    "names": [],
+    "file": "config-style.css"
+}
