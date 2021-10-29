@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./logo";
+import UserBlock from "./userBlock";
 import styles from "./style.module.scss";
 
 function Header() {
@@ -8,7 +9,7 @@ function Header() {
       <div className={styles.headerСontainer}>
         <div className={styles.headerBody}>
           <Logo />
-          <div>userBlock</div>
+          <UserBlock />
         </div>
       </div>
     </div>
