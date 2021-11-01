@@ -1,0 +1,29 @@
+@import "../../assets/scss/config-style.scss";
+
+.header {
+  background-color: $menuBackground;
+  color: $menuColor;
+  &Сontainer {
+    width: $md1;
+  }
+  &Body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+}
+
+.logoBlock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  &Img {
+    width: 100px;
+    height: 100px;
+  }
+  &Name {
+    font-size: 20px;
+    color: white;
+  }
+}

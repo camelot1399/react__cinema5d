@@ -6,6 +6,17 @@
         "style.css",
         "style.scss"
       ]
+    },
+    "components": {
+      "header": {
+        "style.module.scss": "file"
+      },
+      "footer": {
+        "style.module.scss": "file"
+      },
+      "navigation": {
+        "style.module.scss": "file"
+      }
     }
   },
   ".editorconfig": "",
