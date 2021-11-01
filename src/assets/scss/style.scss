@@ -1,3 +1,4 @@
+@import "../../assets/css/reset.css";
 @import "../../assets/scss/config-style.scss";
 
 * {
@@ -9,4 +10,15 @@ body {
   width: 100%;
   background-color: $mainBackground;
   box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
