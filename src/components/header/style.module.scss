@@ -3,14 +3,17 @@
 .header {
   background-color: $menuBackground;
   color: $menuColor;
-  &Сontainer {
-    width: $md1;
+  &Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   &Body {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    width: $maxWidthContainer+px;
   }
 }
 
