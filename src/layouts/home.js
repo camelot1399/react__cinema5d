@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "../components/header";
 
-
-function Home() {
+function Home({children}) {
   return (
     <div>
-      homeLayouts
+      <Header className="header container" />
+
+      {children}
     </div>
   )
 }
