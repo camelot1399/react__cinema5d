@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./style.module.scss";
-import Item from "../item/index";
+import styles from "./slider.module.scss";
+import Card from "../card/card";
 
 function Slider() {
   return (
@@ -23,15 +23,12 @@ function Slider() {
         <button></button>
 
         <div className={styles["slider__body-items"]}>
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          
-          
-          
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />    
         </div>
 
         <button><i class="far fa-angle-right"></i></button>

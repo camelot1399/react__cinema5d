@@ -1,14 +1,14 @@
 import React from "react";
-import styles from "./item.module.scss"
+import styles from "./card.module.scss"
 
-function Item() {
+function Card() {
     return (
-        <div className={styles["item"]}>
-            <a className={styles["item__poster"]} href="/">
+        <div className={styles["card"]}>
+            <a className={styles["card__poster"]} href="/">
                 <img src="https://www.ovideo.ru/images/posters/0031/0074/0001.jpg" alt="poster" />
                 <span>7.2</span>
             </a>
-            <div className={styles["item__details"]}>
+            <div className={styles["card__details"]}>
                 <a href="/">Не время умирать</a>
                 <span>2021, боевик</span>
             </div>
@@ -17,4 +17,4 @@ function Item() {
 }
 
 
-export default Item;
+export default Card;
