@@ -1,12 +1,9 @@
-import React from "react";
-
-
 function Catalog() {
-  return (
-    <div className="catalog container">
+	return (
+		<div className="catalog container">
       CatalogViews
-    </div>
-  )
+		</div>
+	);
 }
 
 export default Catalog;
