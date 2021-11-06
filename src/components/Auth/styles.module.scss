@@ -1,0 +1,76 @@
+.auth {
+  width: 200px;
+  background-color: white;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  color: black;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+}
+
+.OAuth {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  &__link {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  position: relative;
+  &__input {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  &__btn {
+    margin-top: 10px;
+  }
+}
+
+label {
+  margin-top: 5px;
+}
+
+.btnClose {
+  color: black;
+  transition: color 0.5s;
+  cursor: pointer;
+  &:hover {
+    color: #ccc;
+  }
+}
+
+.form {
+  position: relative;
+}
+
+.goToRegistration {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}

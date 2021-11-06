@@ -1,5 +1,6 @@
-import Logo from "./logo";
-import UserBlock from "./userBlock";
+import React from "react";
+import Logo from "./Logo";
+import UserBlock from "./UserBlock";
 import styles from "./style.module.scss";
 
 function Header() {

@@ -30,3 +30,17 @@
     color: white;
   }
 }
+
+.userBlock {
+  position: relative;
+}
+
+.user {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.5s;
+  &:hover {
+    color: #ccc;
+  }
+}
