@@ -1,9 +1,7 @@
-import React from "react";
-
 function Empty() {
-  return (
-    <div>404 error</div>
-  )
+	return (
+		<div>404 error</div>
+	);
 }
 
 export default Empty;
