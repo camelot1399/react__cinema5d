@@ -1,12 +1,9 @@
-import React from "react";
-
-
 function Home() {
-  return (
-    <div>
+	return (
+		<div>
       homeLayouts
-    </div>
-  )
+		</div>
+	);
 }
 
 export default Home;

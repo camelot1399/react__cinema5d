@@ -5,16 +5,16 @@ import Catalog from "./views/catalog";
 import Slider from "./components/slider/slider";
 
 function App() {
-  return (
-    <div className="wrapper">
-      <Header className="header container" />
-      <Slider />
+	return (
+		<div className="wrapper">
+			<Header className="header container" />
+			<Slider />
 
-      <Route path="/" component={Home} exact />
-      <Route path="/catalog" component={Catalog} exact />
+			<Route path="/" component={Home} exact />
+			<Route path="/catalog" component={Catalog} exact />
 
-    </div>
-  );
+		</div>
+	);
 }
 
 export default App;

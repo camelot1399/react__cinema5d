@@ -1,14 +1,13 @@
-import React from "react";
 import styles from "./slider.module.scss";
 import Card from "../card/card";
 
 function Slider() {
-  return (
-    <div className={styles["slider"] + " container"}>
+	return (
+		<div className={styles["slider"] + " container"}>
 
-      <div className={styles["slider__header"]}>
-        <div className={styles["slider__header-left"]}>
-          <h4>
+			<div className={styles["slider__header"]}>
+				<div className={styles["slider__header-left"]}>
+					<h4>
             Билеты в кино <span>155</span>
           </h4>
         </div>
