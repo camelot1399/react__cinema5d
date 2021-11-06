@@ -28,10 +28,10 @@ function Slider() {
           <Card />
           <Card />
           <Card />
-          <Card />    
+          <Card />
         </div>
 
-        <button><i class="far fa-angle-right"></i></button>
+        <button><i className="far fa-angle-right"></i></button>
 
       </div>
     </div>

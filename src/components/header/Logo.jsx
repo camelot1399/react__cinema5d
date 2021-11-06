@@ -7,7 +7,7 @@ import logo from '../../assets/image/logo/logo.png';
 function Logo() {
   return (
     <div className={styles.logoBlock}>
-      <Link to="/" exact>
+      <Link to="/">
         <img className={styles.logoBlockImg} src={logo} alt="Логототип лучшего сервиса мира" />
         <div className={styles.logoBlockName} >CINEMA5D</div>
       </Link>
